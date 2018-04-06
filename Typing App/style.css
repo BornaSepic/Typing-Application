@@ -1,0 +1,109 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    max-width: 900px;
+    margin: auto;
+    text-align: center
+}
+.startApp{
+    width: 500px;
+    margin: auto;
+    margin-top: 20vh;
+}
+
+.start-button {
+    width: 240px;
+    height: auto;
+    cursor: pointer;
+}
+.instructions{
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.app,
+.endScreen {
+    display: none;
+}
+
+.endScreen {
+    margin-top: 40vh;
+}
+
+.ta-image {
+    margin-top: 15px;
+    height: 50vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.lettersDisplay {
+    font-size: 24px;
+    padding: 5px;
+    margin: 4px;
+}
+
+.hiddenLetter {
+    display: inline-block;
+    min-width: 20px;
+    color: white;
+    user-select: none;
+    border-bottom: 1px solid black !important;
+}
+.nextTask{
+    display: none;
+    position: fixed; /* Stay in place */
+    z-index: 99; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.nextTaskContent{
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 600px; /* Could be more or less, depending on screen size */
+    height: 200px;
+}
+.starDisplay{
+    height: 50px;
+    width: 200px;
+    margin: auto;
+}
+.ta-next{
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(202, 60, 60);
+    border: 1px solid white;
+    font-size: 18px;
+    padding: 15px;
+    cursor: pointer;
+}
+.ta-next:hover{
+    background: rgb(245, 73, 73);
+}
+.ta-restart{
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(28, 184, 65); /* this is a green */
+    border: 1px solid white;
+    font-size: 18px;
+    padding: 15px;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+}
+.ta-restart:hover{
+    background: rgb(35, 223, 79); /* this is a green */
+}
